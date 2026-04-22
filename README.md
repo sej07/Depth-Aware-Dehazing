@@ -27,7 +27,7 @@ Download trained model weights from Google Drive:
 [\https://drive.google.com/drive/folders/1L-VIvVxQgD68U3U1cVZ8UfeQ6yQvIDih?usp=drive_link](https://drive.google.com/drive/folders/1L-VIvVxQgD68U3U1cVZ8UfeQ6yQvIDih?usp=drive_link)
 
 Extract into the `experiments/` folder. The structure should be:
-'''text
+```text
 experiments/
 ├── aodnet_baseline/
 │   └── checkpoints/
@@ -44,7 +44,7 @@ experiments/
 └── depth_joint/
 └── checkpoints/
 └── best.pth
-'''
+```
 
 ## Demo
 
@@ -55,7 +55,7 @@ jupyter notebook demo.ipynb
 ```
 
 ## Project Structure
-'''text
+```text
 depth-aware-dehazing/
 ├── src/
 │   ├── models/         # Model architectures (AOD-Net, FFA-Net, depth methods)
@@ -69,7 +69,7 @@ depth-aware-dehazing/
 ├── demo.ipynb          # Demo notebook (inference only)
 ├── requirements.txt    # Python dependencies
 └── README.md
-'''
+```
 
 ## Datasets
 
@@ -94,7 +94,7 @@ Download from: [https://data.vision.ee.ethz.ch/cvl/ntire18//i-haze/](https://dat
 ### Data Structure
 
 After downloading, organize the data as follows:
-'''text
+```text
 data/
 ├── reside/
 │   ├── OTS/
@@ -110,7 +110,7 @@ data/
 └── ihaze/
 ├── hazy/
 └── GT/
-'''
+```
 **Note:** For the demo notebook, only sample images in `demo_images/` are needed. Full datasets are required only for training.
 
 ## Results
