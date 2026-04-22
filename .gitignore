@@ -1,0 +1,63 @@
+# Data files (too large)
+data/
+*.npy
+*.npz
+
+# Model checkpoints (upload to Google Drive instead)
+experiments/*/checkpoints/*.pth
+*.pth
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+Thumbs.db
+
+# Logs
+*.log
+logs/
+tensorboard/
+runs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Output files (can regenerate)
+outputs/*.csv
+outputs/visualizations/
+
+# Scratch/test folders
+test_run/
+test_quick/
+scratch/
