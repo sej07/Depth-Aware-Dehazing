@@ -53,10 +53,6 @@ build/
 dist/
 *.egg-info/
 
-# Output files (can regenerate)
-outputs/*.csv
-outputs/visualizations/
-
 # Scratch/test folders
 test_run/
 test_quick/
